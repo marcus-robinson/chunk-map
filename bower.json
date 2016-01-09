@@ -1,0 +1,22 @@
+{
+  "name": "phaser-chunked-tilemap",
+  "authors": [
+    "Marcus Robinson <mr.marcus.l.robinson@gmail.com>"
+  ],
+  "description": "An implementation of a chunked 2D tilemap using the Phaser game engine.",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "www/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "phaser": "https://raw.githubusercontent.com/photonstorm/phaser/v2.4.4/build/phaser.js"
+  }
+}

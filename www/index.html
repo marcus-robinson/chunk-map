@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Chunk Map</title>
+        <script src="lib/phaser/index.js"></script>
+        <script src="js/game/world-sim.js"></script>
+        <script src="js/game/chunk-tile-factory.js"></script>
+        <script src="js/game/engine.js"></script>
+        <script src="js/game/map.js"></script>
+        <script src="js/game/chunk.js"></script>
+        <script src="js/game/noise.js"></script>
+        <script src="js/game/utils.js"></script>
+    </head>
+    <body>
+        <script type="text/javascript">
+            window.onload = function() {
+                <!-- If you increase the size of the game canvas, you need to also increase the ChunkMap.Map.CHUNK_SIZE constant to match. -->
+                <!-- Keep this value a power of 2. -->
+                var mapSize = 256 * 2 * 2;
+                var chunkMapEngine = new ChunkMap.Engine(mapSize, mapSize*3/4, "");
+            };
+        </script>
+    </body>
+</html>

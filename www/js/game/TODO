@@ -1,0 +1,20 @@
+Clean up Classes - fix dodgey private methods
+
+Put on Github
+
+Mobile optimisation
+
+Create Infinite World
+- NO - Dwarf Fortress does not do this. you can control size, but its not infinite
+- instead use 'islands' so that players never see the border
+
+Walkable Objects
+- Pathfinding
+
+Mining
+- improve world resolution and granularity
+
+Boid Wolves
+
+
+History Generation
