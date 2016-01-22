@@ -1,0 +1,28 @@
+{
+  "name": "phaser-chunked-tilemap",
+  "version": "1.0.0",
+  "description": "An implementation of a chunked 2D tilemap using the Phaser game engine.",
+  "main": "",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cp -R ./node_modules/phaser/dist/ ./www/lib/phaser/; http-server www",
+    "start": "http-server www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcus-robinson/chunk-map.git"
+  },
+  "author": "Marcus Robinson <mr.marcus.l.robinson@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/marcus-robinson/chunk-map/issues"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/marcus-robinson/chunk-map#chunkmap",
+  "dependencies": {
+    "http-server": "^0.8.5",
+    "phaser": "^2.4.4"
+  }
+}
